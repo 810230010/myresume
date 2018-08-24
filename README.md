@@ -1,37 +1,87 @@
-## Welcome to GitHub Pages
+# 江建平的简历
+---
 
-You can use the [editor on GitHub](https://github.com/810230010/myresume/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# 联系方式
 
-### Markdown
+- 手机：17858936109
+- Email：810230010@qq.com
+- QQ/微信号：810230010/jiangjianping3210
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+---
 
-```markdown
-Syntax highlighted code block
+# 个人信息
 
-# Header 1
-## Header 2
-### Header 3
+ - 姓名：江建平
+ - 学历及院校：本科/浙江大学宁波理工学院
+ - 出生日期：1996.04.23
 
-- Bulleted
-- List
+ - 工作年限：应届毕业生  算上实习有一年
+ - 技术博客：https://810230010.github.io/jiangjianping/
+ - Github: https://github.com/810230010
 
-1. Numbered
-2. List
+ - 期望职位：Java后端开发
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
+---
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+# 工作经历
 
-### Jekyll Themes
+## 北京百丽公司 （ 2017年10月 ~ 2018年4月 ）
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/810230010/myresume/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### 新零售项目   ---大算+ 、CRM（客户管理系统）
+主要服务于百丽店铺的新零售，将店铺的销售情况进行统计，数据可视化，供店长和店员使用。
+前端使用混合开发，vue以及原生安卓和ios系统。
+nginx进行反向代理和负载均衡以及作为静态文件服务器，项目部署服务器使用tomcat,后端使用Springboot框架，数据库使用mysql,分为主从数据库。使用python脚本进行首单推送等功能。通过shell脚本进行项目部署。线上报警日志以邮箱的方式提醒。redis用于缓存。
 
-### Support or Contact
+该项目主要涉及到的是数据报表。我负责的就是给前端提供api接口,维护模块的正常运行（主要是数据的正常显示），然后维护和第三方的接口，有些维护涉及到实时的数据需要调用其他远程部门提供的接口。对于这个项目，在sql上会有比较大的难度，然后需要了解业务。在sql上不仅仅只是写完sql就完事，还需要进行一定的优化。有些表里的数据都是百万级别的数据。调用第三方的接口考虑到请求参数很多的情况，用到多线程以及异步的思想，将大任务拆分成小任务，减少请求响应时间。项目业务需求增加的很快，工期有限，需要计划工作时间以及量化工作。对工作效率要求比较高。极端时候1天完成一个模块。算是业务驱动技术，业务方面需要和其他部门进行沟通，增加了一定的业务能力。
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+
+
+## 浙江宁波无量科技公司 （ 2017年2月 ~ 2017年8月 ）
+
+### 商城项目
+后端框架使用Spring SpringMVC Mybatis，采用velocity进行静态化渲染。Apache Shiro进行权限控制。管理系统界面使用bootstrap框架以及jquery。服务器中间件使用tomcat,数据库使用mysql。缓存使用ehcache。
+我负责的模块有商品的操作模块，比如上下架、增删改查。权限模块，品牌模块等。从后台页面到后台垂直一条线。遇到的问题比如权限那一块，通过查阅资料，确定了RBAC的解决方案。资源权限通过url控制。
+
+
+
+### 爬虫（爬取政府的招标、中标公告）
+
+使用webmagic框架进行爬取。
+
+---
+
+# 开源项目和作品
+大部分都放到github上。大部分都是在学校独立完成或者帮别人写的毕业设计。
+生物制药平台、在线考试系统、二手手机交易等。
+秒杀项目：逐步测试不同技术选型的性能优化效果。
+校园二手图书交易
+
+
+
+# 技能清单
+
+能够独立开发网站，熟练使用js、html、css，前端web框架jQuery、Bootstrap，了解Vue.js。
+
+熟练使用Spring、SpringMVC、Mybatis、SpringBoot、Tomcat、Mysql。
+较熟练使用Redis、Nginx、MongoDB，能够用Python写一些简单的脚本。
+了解Docker以及Nio，能够基本使用RabbitMQ等消息队列，熟悉JVM，能够做基本的JVM优化。较熟练使用多线程。
+
+分布式方面：
+- Dubbo
+- Zookeeper
+
+---
+个人介绍：
+对于计算机这块比较感兴趣，每天会花一部分时间浏览技术文章，比如开发者头条、掘金以及微信公众号文章等。对英语也比较感兴趣，经常会听BBC news以及看Ted演讲。CET6 488。希望以后工作岗位多多深入分布式项目。
+
+
+
+
+
+---
+
+# 致谢
+感谢您花时间阅读我的简历，期待能有机会和您共事。
